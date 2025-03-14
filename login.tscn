@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://dealblocivtbx"]
+
+[ext_resource type="Script" uid="uid://bks4b2lw3o3tl" path="res://loginButton.gd" id="1_cau7c"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 269.0
+offset_bottom = 397.0
+
+[node name="loginName" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "Usuario"
+
+[node name="loginPassword" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "Contraseña"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Iniciar Sesión"
+script = ExtResource("1_cau7c")
