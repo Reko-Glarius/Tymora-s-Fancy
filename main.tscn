@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://w080145dvyn4"]
+[gd_scene load_steps=2 format=3 uid="uid://w080145dvyn4"]
+
+[ext_resource type="Script" uid="uid://df4yvq4gwkhd7" path="res://gameButtonControl.gd" id="1_ig7tw"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_ig7tw")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 offset_right = 653.0

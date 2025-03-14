@@ -8,6 +8,7 @@ func _on_Button_pressed():
 	var password = get_node("../loginPassword").text
 	if authenticate_user(username, password):
 		print("Login exitoso")
+		get_tree().change_scene_to_file("res://main.tscn")
 		# Aquí cargarías la siguiente escena
 	else:
 		print("Login fallido")
